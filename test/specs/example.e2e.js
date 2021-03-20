@@ -5,7 +5,7 @@ describe('Auth', () => {
     it('user logs in with valid data', () => {
         LoginPage.open();
         LoginPage.setLogin('kremenchugnails@gmail.com');
-        LoginPage.setPassword('test30091995persiki');
+        LoginPage.setPassword('test123456');
         LoginPage.clickSubmitButton();
         ProfilePage.isOpen();
     });
